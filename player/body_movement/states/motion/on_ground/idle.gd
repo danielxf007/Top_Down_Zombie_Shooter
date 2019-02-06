@@ -1,8 +1,8 @@
 extends "res://player/body_movement/states/motion/on_ground/on_ground.gd"
 
 func enter():
-	update_radial_transversal(owner.angle)
-	handle_animation(animation)
+	velocity = Vector2()
+	.enter()
 
 func exit():
 	return
